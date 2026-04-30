@@ -1,0 +1,21 @@
+{
+  "name": "Download pdf",
+  "description": "download pdf of other site",
+  "version": "3.0",
+  "manifest_version": 3,
+
+  "icons": {
+      "16": "images/128.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+  },
+  
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "action": {
+    "default_popup": "index.html"
+  }
+}

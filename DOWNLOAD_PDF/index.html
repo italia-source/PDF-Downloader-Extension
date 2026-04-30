@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                width: 400px;
+                height: 300px;
+                text-align: center;
+            }
+            #MesTutor {
+                font-size: medium;
+                font-weight: 600;
+            }
+            #ButURL {
+                display: block;
+                position: relative;
+                left: 40%;
+                margin-top: 5px;
+                background-color: red;
+            }
+            #LinkInvisibile {
+                opacity: 0;
+                cursor: default;
+                user-select: none;
+            }
+            #Mes {
+                font-weight: bolder;
+            }
+        </style>
+    </head>
+    <body>
+    <h1>Download PDF of a site</h1>
+    <p id="MesTutor">Put the URL:</p>
+    <input type="url" id="InputUrl" placeholder="e.g:http/s://bo.com/filePDF.pdf">
+    <button id="ButURL">submit url</button>
+    <a id="LinkInvisibile" download draggable="false">pdf file</a>
+    <p id="Mes"></p>
+    <script src="LocalScript.js"></script>
+    </body>
+</html>
